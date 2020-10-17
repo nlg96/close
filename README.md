@@ -18,3 +18,7 @@ HDMI: Works well!(I think so)
 
 Keyboard: ok, Blackligh ok( use AsusSMC), Auto blackligh( Fn+A): Screen, keyboard
 
+Big sur, Mojave, catalina work ok
+
+Notes for update kext( If not, You will be panpic with kext when update Big sur): VoodooI2c.kext >> Contents >> Plugins>> Delete voodooinput.kext
+                       VoodooPS2control.kext >> Contents >> Plugins >> Delete Trackpad.kext
